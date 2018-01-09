@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+	margin: 0;
+	padding: 0;		
+}
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+h1 {
+	font-size: 300%;
+	font-family: 'Indie Flower', sans-serif;
+	text-align: center;
+}
+h3 {
+	font-size: 200%;
+	font-family: 'Indie Flower', sans-serif;
+	text-align: center;
+}
+p {
+	font-size: 120%;
+	text-align: justify;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.clearboth {
+	clear: both;
+	margin-bottom: 10%;
+}
+/*-- pocetni meni --*/
+#nav-full {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;	
+	background-color: #244123;
+	clear: both;
+	overflow: hidden;	
+}
+.nav-logo {
+	max-width: 100%;
+	float: left;
+}
+.nav-logo img {
+	width: 250px;
+	height: 50px;
+}
+#nav-full nav {
+	float: right;
+	width: 60%;
+	height: auto;
+	margin-right: 0;
+}
+#nav-full nav ul li {
+	text-decoration: none;
+	float: left;
+	display: inline-block;
+	margin: 10px 20px 0 0;
+	padding: 1%;
+	background-color: #bdcc4f;
+	border-radius: 5px;
+}
+#nav-full nav ul li a {
+	text-decoration: none;
+	color: #244123;	
+}
+#nav-full nav ul li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/* srednji baner */
+#baner-container {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#baner-container .trecina {
+	width: 28%;
+	float: left;
+	margin: 0 3.3344% 0 0;
+	padding-left: 2%;
+}
+.srednja-slika {
+	float: left;
+	width: 45%;
+	height: auto;
+}
+.srednja-slika img {
+	
+}
+.srednja-desnitext {
+	float: right;
+	width: 45%;
+	margin: 4% 3% 0 0;
+}
+.srednja-desnitext p {
+	text-align: justify;
+}
+.cetvrtina-container {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cetvrtina-container .cetvrtina {
+	width: 23%;
+	float: left;
+	margin: 0 auto;
+	padding-left: 2%;
+}
+.cetvrtina-container .cetvrtina p {
+	text-align: justify;
+}
+.vesti-container {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#trecina-sl {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin: 0 auto;
+	padding-left: 2%;
+}
+.footer-gornji {
+	background-color: #bdcc4f;
+	width: 100%;
+	height: auto;
+	float: left;	
+}
+.footer-gornji .footer-kontakt {
+	font-family: 'Indie Flower', sans-serif;
+	font-size: 180%;
+	float: left;
+	color: #244123;
+}
+.footer-gornji .footer-social {
+	float: right;
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+}
+.footer-gornji .footer-social ul {
+	list-style-type: none;
+}
+.footer-gornji .footer-social ul li {
+	float: left;
+	padding-left: 15%;	
+	margin: 15% 0 0 0;
+}
+.footer-gornji .footer-social ul li i:hover {
+	text-decoration: underline;		
+}
+.footer-gornji .footer-social ul li i {
+	font-size: 400%;
+	color: #244123;			
+}
+.footer-donji {
+	background-color: #244123;
+	width: 100%;
+	height: auto;
+	color: #bdcc4f;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.clearboth-footer {
+	padding: 0;
+	margin-bottom: 0;
+	clear: both;
+}
+/* media queries */
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 200%;
+	}
+	h3 {
+		font-size: 150%;
+	}
+	p {
+		font-size: 90%;
+	}
+	.nav-logo {	
+		display: block;	
+		width: 100%;
+		height: auto;
+	}
+	.nav-logo img {				
+		width: 100%;
+		height: auto;			
+	}
+	#nav-full {
+
+	}
+	#nav-full nav {
+		width: 100%;
+		height: auto;
+	}
+	#nav-full nav ul li {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	#nav-full nav ul li:hover {
+		background-color: white;
+		color: black;
+		cursor: pointer;
+	}
+	#nav-full nav ul li a:hover {
+		color: black;
+		text-decoration: none;
+	}
+	#baner-container .trecina {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.srednja-slika {
+		width: 100%;
+		height: auto;
+	}
+	.srednja-desnitext {
+		float: left;
+		width: 100%;	
+		height: auto;	
+	}
+	.cetvrtina-container {
+		width: 100%;
+		height: auto;
+	}
+	.cetvrtina-container .cetvrtina {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.vesti-container {
+		width: 100%;
+		height: auto;		
+	}
+	.vesti-container #trecina-sl {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;		
+	}
+	.footer-gornji {
+		width: 100%;
+		height: auto;		
+	}	
+	.footer-gornji .footer-kontakt {
+		width: 100%;
+		height: auto;		
+	}
+	.footer-gornji .footer-kontakt p {
+		text-align: center;		
+	}
+	.footer-gornji .footer-social {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;						
+	}	
+}
+
